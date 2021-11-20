@@ -11,6 +11,7 @@ const handleErrors = (error: any) => {
 }
 
 export const registerStep1 = (infos: SignupData) => async (dispatch: AppDispatch) => {
+    console.log('step 1')
     dispatch(loading())
     try {
         const { data } = await signupStep1(infos)
