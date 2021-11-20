@@ -1,0 +1,34 @@
+.step4-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rounded-container {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.3rem;
+    cursor: pointer;
+}
+.add-profile-picture-icon {
+    font-size: 24px;
+}
+
+.rounded-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

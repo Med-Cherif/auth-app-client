@@ -1,0 +1,22 @@
+.confirmation {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-spinner {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    border-top-color: red;
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(360deg);
+    }
+}

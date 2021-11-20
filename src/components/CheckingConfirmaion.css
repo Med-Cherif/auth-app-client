@@ -1,0 +1,41 @@
+.checking-confirmation-container {
+    width: 100%;
+    min-height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 990px;
+    padding: 20px;
+    margin: auto;
+}
+
+.checking-confirmation-box {
+    background: #eee;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.checking-confirmation-box > p {
+    font-size: 18px;
+}
+
+.checking-confirmation-box > p > span {
+    font-weight: bold;
+}
+
+.resend-link-confirmation {
+    margin-top: 10px;
+    
+    text-align: center;
+}
+
+.resend-link-confirmation > button {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(59, 59, 250);
+    cursor: pointer;
+}
