@@ -31,7 +31,7 @@ const GoogleAuth = ({title}: IProps) => {
             (window as any).gapi.load('auth2', function(){
                 // Retrieve the singleton for the GoogleAuth library and set up the client.
                 let auth2 = (window as any).gapi.auth2.init({
-                    client_id: '149142268632-kgtajcn8m4sj7u568gmq2q19na4q69ju.apps.googleusercontent.com',
+                    client_id: '149142268632-c6rveis6ivqgkg89df2h8nsvapfv04td.apps.googleusercontent.com',
                     // cookiepolicy: 'single_host_origin',
                 })
                 auth2.then(() => {
